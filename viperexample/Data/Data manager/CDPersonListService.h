@@ -7,7 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Person.h"
 
 @interface CDPersonListService : NSObject
+
+- (void)getPersonsWithCompletion:(void (^)(NSArray<Person> *persons))completion;
 
 @end

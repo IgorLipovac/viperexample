@@ -7,14 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36041A811BAE154F00A0ED8A /* PersonListImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36041A801BAE154F00A0ED8A /* PersonListImages.xcassets */; };
+		36041A861BAE17DE00A0ED8A /* AddNewPersonWireframe.m in Sources */ = {isa = PBXBuildFile; fileRef = 36041A851BAE17DE00A0ED8A /* AddNewPersonWireframe.m */; };
+		36041A8E1BAE181D00A0ED8A /* AddNewPersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36041A8D1BAE181D00A0ED8A /* AddNewPersonViewController.m */; };
+		36041A911BAE182B00A0ED8A /* AddNewPersonPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 36041A901BAE182B00A0ED8A /* AddNewPersonPresenter.m */; };
+		36041A981BAE187C00A0ED8A /* AddNewPersonMainInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 36041A971BAE187C00A0ED8A /* AddNewPersonMainInteractor.m */; };
+		36041A9A1BAE1A1E00A0ED8A /* AddNewPerson.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36041A991BAE1A1E00A0ED8A /* AddNewPerson.storyboard */; };
+		36041A9D1BAE1F7C00A0ED8A /* AddNewPersonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 36041A9C1BAE1F7C00A0ED8A /* AddNewPersonItem.m */; };
 		363E23191BAC0F3500AC8EAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 363E23181BAC0F3500AC8EAD /* main.m */; };
 		363E231C1BAC0F3500AC8EAD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 363E231B1BAC0F3500AC8EAD /* AppDelegate.m */; };
 		363E231F1BAC0F3500AC8EAD /* viperexample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 363E231D1BAC0F3500AC8EAD /* viperexample.xcdatamodeld */; };
-		363E23221BAC0F3500AC8EAD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 363E23211BAC0F3500AC8EAD /* ViewController.m */; };
-		363E23251BAC0F3500AC8EAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 363E23231BAC0F3500AC8EAD /* Main.storyboard */; };
 		363E23271BAC0F3500AC8EAD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 363E23261BAC0F3500AC8EAD /* Images.xcassets */; };
 		363E232A1BAC0F3500AC8EAD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 363E23281BAC0F3500AC8EAD /* LaunchScreen.xib */; };
 		363E23361BAC0F3500AC8EAD /* viperexampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 363E23351BAC0F3500AC8EAD /* viperexampleTests.m */; };
+		363E234C1BAC12B100AC8EAD /* PersonManagerApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 363E234B1BAC12B100AC8EAD /* PersonManagerApp.m */; };
+		363E235D1BAC167600AC8EAD /* PersonListWireframe.m in Sources */ = {isa = PBXBuildFile; fileRef = 363E235C1BAC167600AC8EAD /* PersonListWireframe.m */; };
+		363E23611BAC175600AC8EAD /* LocalListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 363E23601BAC175600AC8EAD /* LocalListViewController.m */; };
+		363E23641BAC177700AC8EAD /* LocalListPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 363E23631BAC177700AC8EAD /* LocalListPresenter.m */; };
+		363E23671BAC17D400AC8EAD /* LocalListInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 363E23661BAC17D400AC8EAD /* LocalListInteractor.m */; };
+		36A4A5EE1BAE0461006D82A6 /* LocalListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A4A5ED1BAE0461006D82A6 /* LocalListCell.m */; };
+		36A4A5F11BAE0843006D82A6 /* DetailsPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A4A5F01BAE0843006D82A6 /* DetailsPresenter.m */; };
+		36A4A5F41BAE0860006D82A6 /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A4A5F31BAE0860006D82A6 /* DetailsViewController.m */; };
+		36CB731D1BAC20CF0088B571 /* BaseWireframe.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CB731C1BAC20CF0088B571 /* BaseWireframe.m */; };
+		36CB73201BAC23430088B571 /* NSObject+Lifetime.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CB731F1BAC23430088B571 /* NSObject+Lifetime.m */; };
+		36CB732C1BAC31360088B571 /* PersonList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36CB732B1BAC31360088B571 /* PersonList.storyboard */; };
+		36CB732F1BAC329D0088B571 /* AppearanceInitializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CB732E1BAC329D0088B571 /* AppearanceInitializer.m */; };
+		36CB73321BAC45390088B571 /* APIPersonListService.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CB73311BAC45390088B571 /* APIPersonListService.m */; };
+		36CB73351BAC45620088B571 /* CDPersonListService.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CB73341BAC45620088B571 /* CDPersonListService.m */; };
+		36CB733B1BAC49BF0088B571 /* CoreDataInitializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CB733A1BAC49BF0088B571 /* CoreDataInitializer.m */; };
+		36CB73411BAC4AC20088B571 /* CDCompany.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CB733F1BAC4AC20088B571 /* CDCompany.m */; };
+		36CB73441BAC4AFF0088B571 /* CDPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CB73431BAC4AFF0088B571 /* CDPerson.m */; };
+		36CB73491BAC4EC80088B571 /* PersonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CB73481BAC4EC80088B571 /* PersonModel.m */; };
+		36CB734C1BAC4ED30088B571 /* CompanyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CB734B1BAC4ED30088B571 /* CompanyModel.m */; };
+		36CB73501BAC54730088B571 /* LocalListDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CB734F1BAC54730088B571 /* LocalListDataSource.m */; };
+		B3AA5609F1D90481F6C4A673 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 73463E762BA4AD632409D5DF /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,20 +54,78 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1859F3C5F909323C58B228B0 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		36041A801BAE154F00A0ED8A /* PersonListImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = PersonListImages.xcassets; sourceTree = "<group>"; };
+		36041A841BAE17DE00A0ED8A /* AddNewPersonWireframe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddNewPersonWireframe.h; sourceTree = "<group>"; };
+		36041A851BAE17DE00A0ED8A /* AddNewPersonWireframe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddNewPersonWireframe.m; sourceTree = "<group>"; };
+		36041A8B1BAE180E00A0ED8A /* AddNewPersonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddNewPersonView.h; sourceTree = "<group>"; };
+		36041A8C1BAE181D00A0ED8A /* AddNewPersonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddNewPersonViewController.h; sourceTree = "<group>"; };
+		36041A8D1BAE181D00A0ED8A /* AddNewPersonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddNewPersonViewController.m; sourceTree = "<group>"; };
+		36041A8F1BAE182B00A0ED8A /* AddNewPersonPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddNewPersonPresenter.h; sourceTree = "<group>"; };
+		36041A901BAE182B00A0ED8A /* AddNewPersonPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddNewPersonPresenter.m; sourceTree = "<group>"; };
+		36041A951BAE184D00A0ED8A /* AddNewPersonInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddNewPersonInteractor.h; sourceTree = "<group>"; };
+		36041A961BAE187C00A0ED8A /* AddNewPersonMainInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddNewPersonMainInteractor.h; sourceTree = "<group>"; };
+		36041A971BAE187C00A0ED8A /* AddNewPersonMainInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddNewPersonMainInteractor.m; sourceTree = "<group>"; };
+		36041A991BAE1A1E00A0ED8A /* AddNewPerson.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AddNewPerson.storyboard; sourceTree = "<group>"; };
+		36041A9B1BAE1F7C00A0ED8A /* AddNewPersonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddNewPersonItem.h; sourceTree = "<group>"; };
+		36041A9C1BAE1F7C00A0ED8A /* AddNewPersonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddNewPersonItem.m; sourceTree = "<group>"; };
 		363E23131BAC0F3500AC8EAD /* viperexample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = viperexample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		363E23171BAC0F3500AC8EAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		363E23181BAC0F3500AC8EAD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		363E231A1BAC0F3500AC8EAD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		363E231B1BAC0F3500AC8EAD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		363E231E1BAC0F3500AC8EAD /* viperexample.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = viperexample.xcdatamodel; sourceTree = "<group>"; };
-		363E23201BAC0F3500AC8EAD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		363E23211BAC0F3500AC8EAD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		363E23241BAC0F3500AC8EAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		363E23261BAC0F3500AC8EAD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		363E23291BAC0F3500AC8EAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		363E232F1BAC0F3500AC8EAD /* viperexampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = viperexampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		363E23341BAC0F3500AC8EAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		363E23351BAC0F3500AC8EAD /* viperexampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = viperexampleTests.m; sourceTree = "<group>"; };
+		363E234A1BAC12B100AC8EAD /* PersonManagerApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonManagerApp.h; sourceTree = "<group>"; };
+		363E234B1BAC12B100AC8EAD /* PersonManagerApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonManagerApp.m; sourceTree = "<group>"; };
+		363E235B1BAC167600AC8EAD /* PersonListWireframe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonListWireframe.h; sourceTree = "<group>"; };
+		363E235C1BAC167600AC8EAD /* PersonListWireframe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonListWireframe.m; sourceTree = "<group>"; };
+		363E235E1BAC174600AC8EAD /* LocalListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalListView.h; sourceTree = "<group>"; };
+		363E235F1BAC175600AC8EAD /* LocalListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalListViewController.h; sourceTree = "<group>"; };
+		363E23601BAC175600AC8EAD /* LocalListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalListViewController.m; sourceTree = "<group>"; };
+		363E23621BAC177700AC8EAD /* LocalListPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalListPresenter.h; sourceTree = "<group>"; };
+		363E23631BAC177700AC8EAD /* LocalListPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalListPresenter.m; sourceTree = "<group>"; };
+		363E23651BAC17D400AC8EAD /* LocalListInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalListInteractor.h; sourceTree = "<group>"; };
+		363E23661BAC17D400AC8EAD /* LocalListInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalListInteractor.m; sourceTree = "<group>"; };
+		36A4A5EC1BAE0461006D82A6 /* LocalListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalListCell.h; sourceTree = "<group>"; };
+		36A4A5ED1BAE0461006D82A6 /* LocalListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalListCell.m; sourceTree = "<group>"; };
+		36A4A5EF1BAE0843006D82A6 /* DetailsPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsPresenter.h; sourceTree = "<group>"; };
+		36A4A5F01BAE0843006D82A6 /* DetailsPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsPresenter.m; sourceTree = "<group>"; };
+		36A4A5F21BAE0860006D82A6 /* DetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		36A4A5F31BAE0860006D82A6 /* DetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
+		36A4A5F51BAE086A006D82A6 /* DetailsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsView.h; sourceTree = "<group>"; };
+		36CB73181BAC1F540088B571 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		36CB73191BAC1F800088B571 /* Company.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Company.h; sourceTree = "<group>"; };
+		36CB731B1BAC20CF0088B571 /* BaseWireframe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseWireframe.h; sourceTree = "<group>"; };
+		36CB731C1BAC20CF0088B571 /* BaseWireframe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseWireframe.m; sourceTree = "<group>"; };
+		36CB731E1BAC23430088B571 /* NSObject+Lifetime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Lifetime.h"; sourceTree = "<group>"; };
+		36CB731F1BAC23430088B571 /* NSObject+Lifetime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Lifetime.m"; sourceTree = "<group>"; };
+		36CB73211BAC25C40088B571 /* Initializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Initializer.h; sourceTree = "<group>"; };
+		36CB732B1BAC31360088B571 /* PersonList.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PersonList.storyboard; sourceTree = "<group>"; };
+		36CB732D1BAC329D0088B571 /* AppearanceInitializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppearanceInitializer.h; sourceTree = "<group>"; };
+		36CB732E1BAC329D0088B571 /* AppearanceInitializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppearanceInitializer.m; sourceTree = "<group>"; };
+		36CB73301BAC45390088B571 /* APIPersonListService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIPersonListService.h; sourceTree = "<group>"; };
+		36CB73311BAC45390088B571 /* APIPersonListService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIPersonListService.m; sourceTree = "<group>"; };
+		36CB73331BAC45620088B571 /* CDPersonListService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDPersonListService.h; sourceTree = "<group>"; };
+		36CB73341BAC45620088B571 /* CDPersonListService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDPersonListService.m; sourceTree = "<group>"; };
+		36CB73391BAC49BF0088B571 /* CoreDataInitializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataInitializer.h; sourceTree = "<group>"; };
+		36CB733A1BAC49BF0088B571 /* CoreDataInitializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataInitializer.m; sourceTree = "<group>"; };
+		36CB733E1BAC4AC20088B571 /* CDCompany.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDCompany.h; sourceTree = "<group>"; };
+		36CB733F1BAC4AC20088B571 /* CDCompany.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDCompany.m; sourceTree = "<group>"; };
+		36CB73421BAC4AFF0088B571 /* CDPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDPerson.h; sourceTree = "<group>"; };
+		36CB73431BAC4AFF0088B571 /* CDPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDPerson.m; sourceTree = "<group>"; };
+		36CB73471BAC4EC80088B571 /* PersonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonModel.h; sourceTree = "<group>"; };
+		36CB73481BAC4EC80088B571 /* PersonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonModel.m; sourceTree = "<group>"; };
+		36CB734A1BAC4ED30088B571 /* CompanyModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompanyModel.h; sourceTree = "<group>"; };
+		36CB734B1BAC4ED30088B571 /* CompanyModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompanyModel.m; sourceTree = "<group>"; };
+		36CB734E1BAC54730088B571 /* LocalListDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalListDataSource.h; sourceTree = "<group>"; };
+		36CB734F1BAC54730088B571 /* LocalListDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalListDataSource.m; sourceTree = "<group>"; };
+		5E69C8D010BA9071C4370ED8 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		73463E762BA4AD632409D5DF /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +133,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3AA5609F1D90481F6C4A673 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,12 +147,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		36041A871BAE17FA00A0ED8A /* AddNewPerson */ = {
+			isa = PBXGroup;
+			children = (
+				36041A881BAE17FA00A0ED8A /* Interactor */,
+				36041A891BAE17FA00A0ED8A /* Presenter */,
+				36041A8A1BAE17FA00A0ED8A /* View */,
+			);
+			path = AddNewPerson;
+			sourceTree = "<group>";
+		};
+		36041A881BAE17FA00A0ED8A /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				36041A951BAE184D00A0ED8A /* AddNewPersonInteractor.h */,
+				36041A961BAE187C00A0ED8A /* AddNewPersonMainInteractor.h */,
+				36041A971BAE187C00A0ED8A /* AddNewPersonMainInteractor.m */,
+				36041A9B1BAE1F7C00A0ED8A /* AddNewPersonItem.h */,
+				36041A9C1BAE1F7C00A0ED8A /* AddNewPersonItem.m */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		36041A891BAE17FA00A0ED8A /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				36041A8F1BAE182B00A0ED8A /* AddNewPersonPresenter.h */,
+				36041A901BAE182B00A0ED8A /* AddNewPersonPresenter.m */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		36041A8A1BAE17FA00A0ED8A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				36041A8B1BAE180E00A0ED8A /* AddNewPersonView.h */,
+				36041A8C1BAE181D00A0ED8A /* AddNewPersonViewController.h */,
+				36041A8D1BAE181D00A0ED8A /* AddNewPersonViewController.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		363E230A1BAC0F3500AC8EAD = {
 			isa = PBXGroup;
 			children = (
 				363E23151BAC0F3500AC8EAD /* viperexample */,
 				363E23321BAC0F3500AC8EAD /* viperexampleTests */,
 				363E23141BAC0F3500AC8EAD /* Products */,
+				BA8F01423C676EBF67117981 /* Pods */,
+				AD8EB045FC2EDEC244D6A5E3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,14 +211,13 @@
 		363E23151BAC0F3500AC8EAD /* viperexample */ = {
 			isa = PBXGroup;
 			children = (
+				363E233F1BAC11AA00AC8EAD /* App */,
+				363E23431BAC11AA00AC8EAD /* Data */,
+				363E23471BAC11AA00AC8EAD /* Modules */,
 				363E231A1BAC0F3500AC8EAD /* AppDelegate.h */,
 				363E231B1BAC0F3500AC8EAD /* AppDelegate.m */,
-				363E23201BAC0F3500AC8EAD /* ViewController.h */,
-				363E23211BAC0F3500AC8EAD /* ViewController.m */,
-				363E23231BAC0F3500AC8EAD /* Main.storyboard */,
 				363E23261BAC0F3500AC8EAD /* Images.xcassets */,
 				363E23281BAC0F3500AC8EAD /* LaunchScreen.xib */,
-				363E231D1BAC0F3500AC8EAD /* viperexample.xcdatamodeld */,
 				363E23161BAC0F3500AC8EAD /* Supporting Files */,
 			);
 			path = viperexample;
@@ -122,6 +249,239 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		363E233F1BAC11AA00AC8EAD /* App */ = {
+			isa = PBXGroup;
+			children = (
+				363E23401BAC11AA00AC8EAD /* Data Store */,
+				363E23411BAC11AA00AC8EAD /* Initializers */,
+				363E23421BAC11AA00AC8EAD /* Lifetime */,
+				363E234A1BAC12B100AC8EAD /* PersonManagerApp.h */,
+				363E234B1BAC12B100AC8EAD /* PersonManagerApp.m */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		363E23401BAC11AA00AC8EAD /* Data Store */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Data Store";
+			sourceTree = "<group>";
+		};
+		363E23411BAC11AA00AC8EAD /* Initializers */ = {
+			isa = PBXGroup;
+			children = (
+				36CB73211BAC25C40088B571 /* Initializer.h */,
+				36CB732D1BAC329D0088B571 /* AppearanceInitializer.h */,
+				36CB732E1BAC329D0088B571 /* AppearanceInitializer.m */,
+				36CB73391BAC49BF0088B571 /* CoreDataInitializer.h */,
+				36CB733A1BAC49BF0088B571 /* CoreDataInitializer.m */,
+			);
+			path = Initializers;
+			sourceTree = "<group>";
+		};
+		363E23421BAC11AA00AC8EAD /* Lifetime */ = {
+			isa = PBXGroup;
+			children = (
+				36CB731E1BAC23430088B571 /* NSObject+Lifetime.h */,
+				36CB731F1BAC23430088B571 /* NSObject+Lifetime.m */,
+			);
+			path = Lifetime;
+			sourceTree = "<group>";
+		};
+		363E23431BAC11AA00AC8EAD /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				363E231D1BAC0F3500AC8EAD /* viperexample.xcdatamodeld */,
+				363E23441BAC11AA00AC8EAD /* Data manager */,
+				363E23451BAC11AA00AC8EAD /* Models */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		363E23441BAC11AA00AC8EAD /* Data manager */ = {
+			isa = PBXGroup;
+			children = (
+				36CB73301BAC45390088B571 /* APIPersonListService.h */,
+				36CB73311BAC45390088B571 /* APIPersonListService.m */,
+				36CB73331BAC45620088B571 /* CDPersonListService.h */,
+				36CB73341BAC45620088B571 /* CDPersonListService.m */,
+			);
+			path = "Data manager";
+			sourceTree = "<group>";
+		};
+		363E23451BAC11AA00AC8EAD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				36CB73451BAC4B150088B571 /* CDModels */,
+				36CB73181BAC1F540088B571 /* Person.h */,
+				36CB73191BAC1F800088B571 /* Company.h */,
+				36CB73471BAC4EC80088B571 /* PersonModel.h */,
+				36CB73481BAC4EC80088B571 /* PersonModel.m */,
+				36CB734A1BAC4ED30088B571 /* CompanyModel.h */,
+				36CB734B1BAC4ED30088B571 /* CompanyModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		363E23471BAC11AA00AC8EAD /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				36CB731A1BAC20BF0088B571 /* Common */,
+				363E23481BAC11AA00AC8EAD /* AddPersonFlow */,
+				363E23491BAC11AA00AC8EAD /* PersonList */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		363E23481BAC11AA00AC8EAD /* AddPersonFlow */ = {
+			isa = PBXGroup;
+			children = (
+				36041A991BAE1A1E00A0ED8A /* AddNewPerson.storyboard */,
+				36041A841BAE17DE00A0ED8A /* AddNewPersonWireframe.h */,
+				36041A851BAE17DE00A0ED8A /* AddNewPersonWireframe.m */,
+				36041A871BAE17FA00A0ED8A /* AddNewPerson */,
+			);
+			path = AddPersonFlow;
+			sourceTree = "<group>";
+		};
+		363E23491BAC11AA00AC8EAD /* PersonList */ = {
+			isa = PBXGroup;
+			children = (
+				36CB732B1BAC31360088B571 /* PersonList.storyboard */,
+				36041A801BAE154F00A0ED8A /* PersonListImages.xcassets */,
+				363E235B1BAC167600AC8EAD /* PersonListWireframe.h */,
+				363E235C1BAC167600AC8EAD /* PersonListWireframe.m */,
+				363E234D1BAC164300AC8EAD /* Details */,
+				363E23511BAC164300AC8EAD /* LocalList */,
+			);
+			path = PersonList;
+			sourceTree = "<group>";
+		};
+		363E234D1BAC164300AC8EAD /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				363E234E1BAC164300AC8EAD /* Interactor */,
+				363E234F1BAC164300AC8EAD /* Presenter */,
+				363E23501BAC164300AC8EAD /* View */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		363E234E1BAC164300AC8EAD /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		363E234F1BAC164300AC8EAD /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				36A4A5EF1BAE0843006D82A6 /* DetailsPresenter.h */,
+				36A4A5F01BAE0843006D82A6 /* DetailsPresenter.m */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		363E23501BAC164300AC8EAD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				36A4A5F51BAE086A006D82A6 /* DetailsView.h */,
+				36A4A5F21BAE0860006D82A6 /* DetailsViewController.h */,
+				36A4A5F31BAE0860006D82A6 /* DetailsViewController.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		363E23511BAC164300AC8EAD /* LocalList */ = {
+			isa = PBXGroup;
+			children = (
+				363E23521BAC164300AC8EAD /* Interactor */,
+				363E23531BAC164300AC8EAD /* Presenter */,
+				363E23541BAC164300AC8EAD /* View */,
+			);
+			path = LocalList;
+			sourceTree = "<group>";
+		};
+		363E23521BAC164300AC8EAD /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				363E23651BAC17D400AC8EAD /* LocalListInteractor.h */,
+				363E23661BAC17D400AC8EAD /* LocalListInteractor.m */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		363E23531BAC164300AC8EAD /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				363E23621BAC177700AC8EAD /* LocalListPresenter.h */,
+				363E23631BAC177700AC8EAD /* LocalListPresenter.m */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		363E23541BAC164300AC8EAD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				36CB734D1BAC54570088B571 /* LocalListDataSource */,
+				363E235E1BAC174600AC8EAD /* LocalListView.h */,
+				363E235F1BAC175600AC8EAD /* LocalListViewController.h */,
+				363E23601BAC175600AC8EAD /* LocalListViewController.m */,
+				36A4A5EC1BAE0461006D82A6 /* LocalListCell.h */,
+				36A4A5ED1BAE0461006D82A6 /* LocalListCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		36CB731A1BAC20BF0088B571 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				36CB731B1BAC20CF0088B571 /* BaseWireframe.h */,
+				36CB731C1BAC20CF0088B571 /* BaseWireframe.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		36CB73451BAC4B150088B571 /* CDModels */ = {
+			isa = PBXGroup;
+			children = (
+				36CB73421BAC4AFF0088B571 /* CDPerson.h */,
+				36CB73431BAC4AFF0088B571 /* CDPerson.m */,
+				36CB733E1BAC4AC20088B571 /* CDCompany.h */,
+				36CB733F1BAC4AC20088B571 /* CDCompany.m */,
+			);
+			name = CDModels;
+			sourceTree = "<group>";
+		};
+		36CB734D1BAC54570088B571 /* LocalListDataSource */ = {
+			isa = PBXGroup;
+			children = (
+				36CB734E1BAC54730088B571 /* LocalListDataSource.h */,
+				36CB734F1BAC54730088B571 /* LocalListDataSource.m */,
+			);
+			name = LocalListDataSource;
+			path = LocalListDataAdapter;
+			sourceTree = "<group>";
+		};
+		AD8EB045FC2EDEC244D6A5E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				73463E762BA4AD632409D5DF /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA8F01423C676EBF67117981 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E69C8D010BA9071C4370ED8 /* Pods.debug.xcconfig */,
+				1859F3C5F909323C58B228B0 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,9 +489,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 363E23391BAC0F3500AC8EAD /* Build configuration list for PBXNativeTarget "viperexample" */;
 			buildPhases = (
+				62895D8FDCC619E3B4BA7B28 /* Check Pods Manifest.lock */,
 				363E230F1BAC0F3500AC8EAD /* Sources */,
 				363E23101BAC0F3500AC8EAD /* Frameworks */,
 				363E23111BAC0F3500AC8EAD /* Resources */,
+				82F0A323AE5C6ED031426869 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,9 +564,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				363E23251BAC0F3500AC8EAD /* Main.storyboard in Resources */,
 				363E232A1BAC0F3500AC8EAD /* LaunchScreen.xib in Resources */,
 				363E23271BAC0F3500AC8EAD /* Images.xcassets in Resources */,
+				36041A811BAE154F00A0ED8A /* PersonListImages.xcassets in Resources */,
+				36CB732C1BAC31360088B571 /* PersonList.storyboard in Resources */,
+				36041A9A1BAE1A1E00A0ED8A /* AddNewPerson.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,15 +581,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		62895D8FDCC619E3B4BA7B28 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		82F0A323AE5C6ED031426869 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		363E230F1BAC0F3500AC8EAD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36041A8E1BAE181D00A0ED8A /* AddNewPersonViewController.m in Sources */,
+				36041A9D1BAE1F7C00A0ED8A /* AddNewPersonItem.m in Sources */,
+				36CB732F1BAC329D0088B571 /* AppearanceInitializer.m in Sources */,
+				363E234C1BAC12B100AC8EAD /* PersonManagerApp.m in Sources */,
 				363E231C1BAC0F3500AC8EAD /* AppDelegate.m in Sources */,
+				36CB73441BAC4AFF0088B571 /* CDPerson.m in Sources */,
+				36CB73411BAC4AC20088B571 /* CDCompany.m in Sources */,
+				36A4A5F11BAE0843006D82A6 /* DetailsPresenter.m in Sources */,
+				363E23671BAC17D400AC8EAD /* LocalListInteractor.m in Sources */,
+				36CB73351BAC45620088B571 /* CDPersonListService.m in Sources */,
 				363E23191BAC0F3500AC8EAD /* main.m in Sources */,
-				363E23221BAC0F3500AC8EAD /* ViewController.m in Sources */,
+				36041A911BAE182B00A0ED8A /* AddNewPersonPresenter.m in Sources */,
+				36CB73491BAC4EC80088B571 /* PersonModel.m in Sources */,
+				36041A981BAE187C00A0ED8A /* AddNewPersonMainInteractor.m in Sources */,
+				36CB734C1BAC4ED30088B571 /* CompanyModel.m in Sources */,
+				363E235D1BAC167600AC8EAD /* PersonListWireframe.m in Sources */,
+				363E23611BAC175600AC8EAD /* LocalListViewController.m in Sources */,
+				36A4A5F41BAE0860006D82A6 /* DetailsViewController.m in Sources */,
+				36CB73201BAC23430088B571 /* NSObject+Lifetime.m in Sources */,
+				36A4A5EE1BAE0461006D82A6 /* LocalListCell.m in Sources */,
+				36041A861BAE17DE00A0ED8A /* AddNewPersonWireframe.m in Sources */,
+				36CB73501BAC54730088B571 /* LocalListDataSource.m in Sources */,
+				36CB731D1BAC20CF0088B571 /* BaseWireframe.m in Sources */,
+				363E23641BAC177700AC8EAD /* LocalListPresenter.m in Sources */,
 				363E231F1BAC0F3500AC8EAD /* viperexample.xcdatamodeld in Sources */,
+				36CB73321BAC45390088B571 /* APIPersonListService.m in Sources */,
+				36CB733B1BAC49BF0088B571 /* CoreDataInitializer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,14 +668,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		363E23231BAC0F3500AC8EAD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				363E23241BAC0F3500AC8EAD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		363E23281BAC0F3500AC8EAD /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -349,6 +761,7 @@
 		};
 		363E233A1BAC0F3500AC8EAD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E69C8D010BA9071C4370ED8 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = viperexample/Info.plist;
@@ -359,6 +772,7 @@
 		};
 		363E233B1BAC0F3500AC8EAD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1859F3C5F909323C58B228B0 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = viperexample/Info.plist;
@@ -420,6 +834,7 @@
 				363E233B1BAC0F3500AC8EAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		363E233C1BAC0F3500AC8EAD /* Build configuration list for PBXNativeTarget "viperexampleTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +843,7 @@
 				363E233E1BAC0F3500AC8EAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
@@ -438,7 +854,8 @@
 				363E231E1BAC0F3500AC8EAD /* viperexample.xcdatamodel */,
 			);
 			currentVersion = 363E231E1BAC0F3500AC8EAD /* viperexample.xcdatamodel */;
-			path = viperexample.xcdatamodeld;
+			name = viperexample.xcdatamodeld;
+			path = ../viperexample.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

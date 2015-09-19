@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "AddNewPersonInteractor.h"
 
-@interface AddNewPersonCoreDataInteractor : NSObject
+@interface AddNewPersonMainInteractor : NSObject <AddNewPersonInteractor>
 
 @end

@@ -9,5 +9,16 @@
 #import "CompanyModel.h"
 
 @implementation CompanyModel
+@synthesize name, country;
+
+- (instancetype)initWithDictionary:(NSDictionary *)dictionary
+{
+    self = [super init];
+    if (self) {
+        self.country = dictionary[@"country"];
+        self.name = dictionary[@"name"];
+    }
+    return self;
+}
 
 @end

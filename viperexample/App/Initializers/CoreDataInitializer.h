@@ -7,7 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Initializer.h"
+#import <MagicalRecord.h>
 
-@interface CoreDataInitializer : NSObject
+@interface CoreDataInitializer : NSObject <Initializer>
 
 @end

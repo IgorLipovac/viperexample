@@ -7,7 +7,21 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "LocalListView.h"
+#import "LocalListInteractor.h"
 
-@interface LocalListPresenter : NSObject
+@protocol LocalListOutput <NSObject>
+
+- (void)presentDetailsWithPersonSignal:(id<Person>)person;
+- (void)addNewPersonSignal;
+
+@end
+
+@interface LocalListPresenter : NSObject <LocalListViewDelegate>
+
+@property (assign, nonatomic) id<LocalListOutput> output;
+
+- (void)refreshData;
++ (instancetype)presenterWithView:(id<LocalListView>)view interactor:(LocalListInteractor *)interactor;
 
 @end

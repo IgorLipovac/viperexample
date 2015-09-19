@@ -7,7 +7,26 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Person.h"
 
-@interface LocalListDataSource : NSObject
+@interface LocalListItem : NSObject
+
+@property (nonatomic, strong) NSString *firstName;
+@property (nonatomic, strong) NSString *lastName;
+
+@end
+
+
+@protocol ListDataSource <NSObject>
+
+- (NSInteger)numberOfListItems;
+- (LocalListItem *) itemAtIndex:(NSInteger)index;
+
+@end
+
+@interface LocalListDataSource : NSObject <ListDataSource>
+
++ (instancetype)dataSourceWithPersons:(NSArray *)personList;
+- (id<Person>)personAtIndex:(NSInteger)index;
 
 @end

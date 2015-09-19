@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DetailsView.h"
 
-@interface DetailsViewController : UIViewController
+static NSString *detailsViewControllerStoryboardID = @"DetailsViewController";
+
+@interface DetailsViewController : UIViewController <DetailsView>
+
+@property (assign,nonatomic) id<DetailsViewDelegate>delegate;
 
 @end

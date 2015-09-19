@@ -7,7 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Company.h"
+
 
 @protocol Person <NSObject>
+
+@property (nonatomic, strong) NSString *firstName;
+@property (nonatomic, strong) NSString *lastName;
+@property (nonatomic, strong) id<Company> company;
+@property (nonatomic, strong) NSString *vehicle;
+
 
 @end

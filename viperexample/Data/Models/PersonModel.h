@@ -7,7 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "CompanyModel.h"
+#import "Person.h"
 
-@interface PersonModel : NSObject
+@interface PersonModel : NSObject <Person>
+
+- (instancetype) initWithDictionary:(NSDictionary *)dictionary;
 
 @end

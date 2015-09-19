@@ -7,7 +7,19 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "AddNewPersonInteractor.h"
+#import "AddNewPersonView.h"
 
-@interface AddNewPersonPresenter : NSObject
+@protocol AddNewPersonOutput <NSObject>
+
+- (void)closeAndRefreshSignal;
+
+@end
+
+@interface AddNewPersonPresenter : NSObject <AddNewPersonViewDelegate>
+
+@property (assign,nonatomic) id<AddNewPersonOutput> output;
+
++ (instancetype)presenterWithView:(id<AddNewPersonView>)view interactor:(id<AddNewPersonInteractor>)interactor;
 
 @end

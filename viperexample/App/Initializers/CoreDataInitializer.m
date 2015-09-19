@@ -10,4 +10,9 @@
 
 @implementation CoreDataInitializer
 
+- (void)performInitialSetup
+{
+    [MagicalRecord setupCoreDataStackWithAutoMigratingSqliteStoreNamed:@"PersonListStore"];
+}
+
 @end

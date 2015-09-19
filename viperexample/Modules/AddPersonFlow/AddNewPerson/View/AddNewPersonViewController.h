@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AddNewPersonView.h"
 
-@interface AddNewPersonViewController : UIViewController
+@interface AddNewPersonViewController : UIViewController <AddNewPersonView>
+
+@property (assign, nonatomic) id<AddNewPersonViewDelegate> delegate;
 
 @end

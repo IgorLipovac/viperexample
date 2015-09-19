@@ -7,7 +7,21 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "BaseWireframe.h"
+#import "AddNewPersonWireframe.h"
 
-@interface PersonListWireframe : NSObject
+@protocol PersonListWireframeOutput <NSObject>
+
+- (void)openNewPersonFlowSignal;
+
+@end
+
+
+@interface PersonListWireframe : BaseWireframe <AddNewPersonWireframeOutput>
+
+@property (nonatomic, strong) UINavigationController *rootNavigationController;
+@property (assign, nonatomic) id<PersonListWireframeOutput> output;
+
++ (instancetype)createWireframe;
 
 @end

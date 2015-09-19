@@ -10,4 +10,15 @@
 
 @implementation BaseWireframe
 
+- (void)setupWireframe
+{
+    self.storyboard = [UIStoryboard storyboardWithName:[self storyboardName] bundle:nil];
+}
+
+- (NSString *)storyboardName
+{
+    NSAssert(NO, @"Abstract method");
+    return nil;
+}
+
 @end

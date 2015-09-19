@@ -1,3 +1,4 @@
+
 //
 //  DetailsView.h
 //  viperexample
@@ -7,7 +8,17 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Person.h"
+
+@protocol DetailsViewDelegate <NSObject>
+
+- (void)closeDetails;
+
+@end
+
 
 @protocol DetailsView <NSObject>
+
+- (void)setupWithPerson:(id<Person>)person;
 
 @end

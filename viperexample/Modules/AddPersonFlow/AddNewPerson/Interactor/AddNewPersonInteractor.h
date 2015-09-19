@@ -1,5 +1,5 @@
 //
-//  AddNewPersonBaseInteractor.h
+//  AddNewPersonInteractor.h
 //  viperexample
 //
 //  Created by Igor Lipovac on 20/09/15.
@@ -7,7 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "AddNewPersonItem.h"
 
-@protocol AddNewPersonBaseInteractor <NSObject>
+@protocol AddNewPersonInteractor <NSObject>
+
+- (void)storeNewPersonForItem:(AddNewPersonItem *)item completion:(void (^)(BOOL success))completion;
 
 @end

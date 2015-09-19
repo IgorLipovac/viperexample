@@ -8,10 +8,12 @@
 
 #import <Foundation/Foundation.h>
 #import <CoreData/CoreData.h>
+#import "CDCompany.h"
+#import "Person.h"
 
 @class CDCompany;
 
-@interface CDPerson : NSManagedObject
+@interface CDPerson : NSManagedObject <Person>
 
 @property (nonatomic, retain) NSString * firstName;
 @property (nonatomic, retain) NSString * lastName;

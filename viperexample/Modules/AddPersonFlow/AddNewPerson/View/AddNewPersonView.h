@@ -8,6 +8,19 @@
 
 #import <Foundation/Foundation.h>
 
+@protocol AddNewPersonViewDelegate <NSObject>
+
+- (void)didChangeFirstNameText:(NSString *)firstName;
+- (void)didChangeLastNameText:(NSString *)lastName;
+- (void)didChangeCompanyText:(NSString *)company;
+- (void)didChangeCountryText:(NSString *)country;
+- (void)didChangeVehicleText:(NSString *)vehicle;
+- (void)addNewPersonTapped;
+
+@end
+
 @protocol AddNewPersonView <NSObject>
+
+- (void)showSomethingWentWrongAlert;
 
 @end

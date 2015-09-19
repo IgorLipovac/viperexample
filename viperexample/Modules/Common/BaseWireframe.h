@@ -7,7 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface BaseWireframe : NSObject
+
+@property (strong, nonatomic) UIStoryboard *storyboard;
+
+- (void)setupWireframe;
+- (NSString *)storyboardName;
 
 @end

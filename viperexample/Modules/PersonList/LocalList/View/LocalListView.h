@@ -7,7 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "LocalListDataSource.h"
+
+@protocol LocalListViewDelegate <NSObject>
+- (void)didSelectItemOnIndex:(NSInteger)index;
+- (void)didPressAddNewPerson;
+@end
 
 @protocol LocalListView <NSObject>
+
+- (void)showDataWithDataSource:(id<ListDataSource>)localListDataSource;
 
 @end

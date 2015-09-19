@@ -7,7 +7,18 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import "BaseWireframe.h"
 
-@interface AddNewPersonWireframe : NSObject
+
+@protocol AddNewPersonWireframeOutput <NSObject>
+
+- (void)refreshSignal;
+
+@end
+@interface AddNewPersonWireframe : BaseWireframe
+
+@property (assign, nonatomic) id<AddNewPersonWireframeOutput>output;
++ (instancetype)createWireframeAndPresentOnNavigationController:(UINavigationController *)navigationController;
 
 @end

@@ -10,4 +10,6 @@
 
 @interface LocalListInteractor : NSObject
 
+- (void)getPersonsWithBlock:(void (^)(NSArray * persons))block;
+
 @end

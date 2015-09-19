@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "LocalListView.h"
 
-@interface LocalListViewController : UIViewController
+@interface LocalListViewController : UIViewController <LocalListView>
+
+@property (assign, nonatomic) id<LocalListViewDelegate> delegate; // PRESENTER!!!
 
 @end

@@ -10,4 +10,6 @@
 
 @protocol Initializer <NSObject>
 
+- (void)performInitialSetup;
+
 @end

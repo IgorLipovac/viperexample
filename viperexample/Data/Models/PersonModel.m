@@ -10,4 +10,19 @@
 
 @implementation PersonModel
 
+@synthesize firstName, lastName, vehicle, company;
+
+- (instancetype)initWithDictionary:(NSDictionary *)dictionary
+{
+    self = [super init];
+    if (self) {
+        self.firstName = dictionary[@"first_name"];
+        self.lastName = dictionary[@"last_name"];
+        self.vehicle = dictionary[@"vehicle"];
+        self.company = [[CompanyModel alloc] initWithDictionary:dictionary[@"company"]];
+        
+    }
+    return self;
+}
+
 @end

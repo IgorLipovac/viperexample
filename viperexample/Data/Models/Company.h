@@ -10,4 +10,7 @@
 
 @protocol Company <NSObject>
 
+@property (strong, nonatomic) NSString *name;
+@property (strong, nonatomic) NSString *country;
+
 @end

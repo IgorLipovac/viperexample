@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
+static NSString *reuseIdentifier = @"LocalListCell";
+
 @interface LocalListCell : UITableViewCell
+@property (weak, nonatomic) IBOutlet UILabel *nameLabel;
 
 @end

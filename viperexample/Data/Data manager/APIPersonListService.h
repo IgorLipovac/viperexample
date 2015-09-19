@@ -7,7 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Person.h"
 
 @interface APIPersonListService : NSObject
+
+
+- (void)getPersonsWithCompletion:(void (^)(NSArray * persons))completion;
+
 
 @end

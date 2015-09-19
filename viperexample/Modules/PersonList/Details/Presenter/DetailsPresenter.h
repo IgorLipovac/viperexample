@@ -7,7 +7,19 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "DetailsView.h"
 
-@interface DetailsPresenter : NSObject
+@protocol DetailsOutput <NSObject>
+
+- (void)closeDetailsSignal;
+
+@end
+
+@interface DetailsPresenter : NSObject <DetailsViewDelegate>
+
+@property (assign, nonatomic) id<DetailsOutput> output;
+
+- (void)presentPersonDetails:(id<Person>)person;
++ (instancetype)presenterWithDetailView:(id<DetailsView>)view;
 
 @end

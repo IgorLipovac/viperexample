@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Initializer.h"
 
-@interface AppearanceInitializer : NSObject
+@interface AppearanceInitializer : NSObject <Initializer>
 
 @end
